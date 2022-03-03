@@ -1,0 +1,23 @@
+[tool.poetry]
+name = "molgym"
+version = "0.1.0"
+description = "Reinforcement Learning for 3D Molecular Design"
+authors = ["Gregor Simm"]
+
+[tool.poetry.dependencies]
+python = ">=3.7"
+ase = "^3.20.0"
+cloudpickle = "^1.3.0"
+gym = "^0.17.2"
+h5py = "^2.10.0"
+torch = "^1.10.2"
+torch-scatter = "^2.0.5"
+cormorant = { git = "https://github.com/risilab/cormorant.git", rev = "6a4b6370e8a7cfd7bf253ecfb5783b6d7787ba3f" }
+quadpy = "^0.16.10"
+schnetpack = "^1.0.0"
+
+[tool.poetry.dev-dependencies]
+
+[build-system]
+requires = ["poetry-core>=1.0.0"]
+build-backend = "poetry.core.masonry.api"
